@@ -1,0 +1,12 @@
+Vilniaus oro uostas$Zurich oro uostas$2019.04.22 11:07$2019.04.22 13:00$Boeing 747$Ryanair$RN78794$149$
+Vilniaus oro uostas$Orly oro uostas$2019.04.22 12:00$2019.04.22 13:59$Airbus A320$Wizzair$RN487054$190$
+Vilniaus oro uostas$Rygos oro uostas$2019.05.22 9:59$2019.05.22 10:59$Airbus A380$Wizzair$WZ6507147$180$
+Lutono oro uostas$Vilniaus oro uostas$2019.04.22 13:43$2019.04.22 15:00$Airbus A320$Ryanair$NR8702$150$
+Talino oro uostas$Vilniaus oro uostas$2019.04.22 12:00$2019.04.22 13:10$Airbus A380$Wizzair$WZ50170$111$
+Vilniaus oro uostas$Stambulo Atatiurko oro uostas$2019.04.22 6:00$2019.04.22 8:30$Airbus A320$Ryanair$RN709714$100$
+Vilniaus oro uostas$Gironos oro uostas$2019.04.20 10:22$2019.04.20 13:30$Boeing 747-800$Ryanair$RN407157$180$
+Rygos oro uostas$Vilniaus oro uostas$2019.04.10 11:34$2019.04.10 12:15$Boeing 767$airBaltic$AB447018$100$
+Talino oro uostas$Vilniaus oro uostas$2019.01.10 11:34$2019.01.10 13:00$Boeing 757$Ryanair$RN417058$90$
+Vilniaus oro uostas$Lutono oro uostas$2019.08.08 19:00$2019.08.08 21:00$Boeing 747$Ryanair$RN719708$100$
+Vilniaus oro uostas$Frankfurto oro uostas$2019.09.22 6:00$2019.09.22 8:10$Boeing 747$Ryanair$RN481707$90$
+Varðuvos oro uostas$Vilniaus oro uostas$2019.03.22 0:05$2019.03.22 1:30$Boeing 747-800$Wizzair$RN446701$180$

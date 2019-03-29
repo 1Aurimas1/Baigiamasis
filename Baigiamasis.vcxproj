@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B7FF4CF2-73FD-41E9-B6B6-56846A19BC9E}</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Baigiamasis</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Console</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Apie.cpp" />
+    <ClCompile Include="NaujasLektuvas.cpp" />
+    <ClCompile Include="NaujasOroUostas.cpp" />
+    <ClCompile Include="NaujasSkrydis.cpp" />
+    <ClCompile Include="Pagrindinis.cpp" />
+    <ClCompile Include="PagrindinisMeniu.cpp" />
+    <ClCompile Include="Prisijungimas.cpp" />
+    <ClCompile Include="RedaguotiLektuvus.cpp" />
+    <ClCompile Include="RedaguotiOroUostus.cpp" />
+    <ClCompile Include="RedaguotiSkrydzius.cpp" />
+    <ClCompile Include="Registravimas.cpp" />
+    <ClCompile Include="SkrydziuApskaita.cpp" />
+    <ClCompile Include="Statistikos.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Apie.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="KintamiejiKlases.h" />
+    <ClInclude Include="NaujasLektuvas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NaujasOroUostas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NaujasSkrydis.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PagrindinisMeniu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Prisijungimas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RedaguotiLektuvus.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RedaguotiOroUostus.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RedaguotiSkrydzius.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Registravimas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SkrydziuApskaita.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Statistikos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Apie.resx">
+      <DependentUpon>Apie.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaujasLektuvas.resx">
+      <DependentUpon>NaujasLektuvas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaujasOroUostas.resx">
+      <DependentUpon>NaujasOroUostas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaujasSkrydis.resx">
+      <DependentUpon>NaujasSkrydis.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagrindinisMeniu.resx">
+      <DependentUpon>PagrindinisMeniu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prisijungimas.resx">
+      <DependentUpon>Prisijungimas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedaguotiLektuvus.resx">
+      <DependentUpon>RedaguotiLektuvus.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedaguotiOroUostus.resx">
+      <DependentUpon>RedaguotiOroUostus.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedaguotiSkrydzius.resx">
+      <DependentUpon>RedaguotiSkrydzius.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registravimas.resx">
+      <DependentUpon>Registravimas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkrydziuApskaita.resx">
+      <DependentUpon>SkrydziuApskaita.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistikos.resx">
+      <DependentUpon>Statistikos.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
